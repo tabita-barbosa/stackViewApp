@@ -17,31 +17,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Iip-Xg-J1C">
-                                <rect key="frame" x="16" y="75" width="361" height="727"/>
+                                <rect key="frame" x="46.666666666666657" y="276" width="300" height="300"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OtG-Jn-Vgv" userLabel="columnOne">
-                                        <rect key="frame" x="0.0" y="0.0" width="110.33333333333333" height="727"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="300"/>
                                         <color key="backgroundColor" red="0.56470588235294117" green="0.4392156862745098" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.56470588235294117" green="0.4392156862745098" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h7l-iG-6oh" userLabel="columnTwo">
-                                        <rect key="frame" x="125.33333333333334" y="0.0" width="110.33333333333334" height="727"/>
+                                        <rect key="frame" x="105" y="0.0" width="90" height="300"/>
                                         <color key="backgroundColor" red="0.38823529411764707" green="0.32549019607843138" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rNX-KI-r9B" userLabel="columnThree">
-                                        <rect key="frame" x="250.66666666666671" y="0.0" width="110.33333333333334" height="727"/>
+                                        <rect key="frame" x="210.00000000000003" y="0.0" width="89.999999999999972" height="300"/>
                                         <color key="backgroundColor" red="0.28627450980392155" green="0.18823529411764706" blue="0.41960784313725491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="GWl-eP-XdL"/>
+                                    <constraint firstAttribute="height" constant="300" id="I91-Lt-9B9"/>
+                                    <constraint firstAttribute="width" constant="300" id="WtC-0E-Fg5"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="tCe-Tw-v2N"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Iip-Xg-J1C" secondAttribute="bottom" constant="16" id="Ewz-pS-ffx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iip-Xg-J1C" secondAttribute="trailing" constant="16" id="UlD-LP-bka"/>
-                            <constraint firstItem="Iip-Xg-J1C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="eOW-Dd-yqu"/>
-                            <constraint firstItem="Iip-Xg-J1C" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="gLS-60-BL3"/>
+                            <constraint firstItem="Iip-Xg-J1C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t5j-iJ-dfa"/>
+                            <constraint firstItem="Iip-Xg-J1C" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="x2b-Kn-Haz"/>
                         </constraints>
                     </view>
                 </viewController>
